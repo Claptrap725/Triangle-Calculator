@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle Calculator", "Triangle Calculator\Triangle Calculator.csproj", "{3DCB8831-4551-453E-BD7D-CD01AD3674A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCB8831-4551-453E-BD7D-CD01AD3674A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCB8831-4551-453E-BD7D-CD01AD3674A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCB8831-4551-453E-BD7D-CD01AD3674A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCB8831-4551-453E-BD7D-CD01AD3674A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99CE34EC-34B3-4C0C-A1A7-6FA3038B63A3}
+	EndGlobalSection
+EndGlobal

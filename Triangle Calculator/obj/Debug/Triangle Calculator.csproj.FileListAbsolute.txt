@@ -1,0 +1,7 @@
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\bin\Debug\Triangle Calculator.exe.config
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\bin\Debug\Triangle Calculator.exe
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\bin\Debug\Triangle Calculator.pdb
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\obj\Debug\Triangle Calculator.csprojAssemblyReference.cache
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\obj\Debug\Triangle Calculator.csproj.CoreCompileInputs.cache
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\obj\Debug\Triangle Calculator.exe
+C:\Users\s199058\source\repos\Triangle Calculator\Triangle Calculator\obj\Debug\Triangle Calculator.pdb
