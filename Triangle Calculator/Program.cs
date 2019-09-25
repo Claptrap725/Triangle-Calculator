@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Triangle_Calculator
 {
@@ -17,29 +13,24 @@ namespace Triangle_Calculator
                 //variables that store the lengths of legs and the measeurement of angles in radians
                 double legA = 0, legB = 0, legC = 0, angleA = 0, angleB = 0, angleC = 0;
                 Console.WriteLine("\n\n\nPlease give us all the information you have about your triangle.");
-                Console.WriteLine("If you don't know a specific side or angle, do not enter any number.");
+                Console.WriteLine("If you don't know a specific side or angle, just press enter without typing anything.");
 
                 //ask for known sides
-                Console.WriteLine("\nEnter the value of Leg A.");
+                Console.WriteLine("\nEnter the value of Side A.");
                 legA = GetPositiveNumberInput();
-                Console.WriteLine("\nEnter the value of Leg B.");
+                Console.WriteLine("\nEnter the value of Side B.");
                 legB = GetPositiveNumberInput();
-                Console.WriteLine("\nEnter the value of Leg C (This is the hypotenuse for right triangles).");
+                Console.WriteLine("\nEnter the value of Side C (This is the hypotenuse for right triangles).");
                 legC = GetPositiveNumberInput();
 
                 //ask for known angles
-                Console.WriteLine("\nEnter the value of Angle A (Oposite of Leg A).");
+                Console.WriteLine("\nEnter the value of Angle A (Oposite of Side A).");
                 angleA = GetAngleInput();
-                Console.WriteLine("\nEnter the value of Angle B (Oposite of Leg B).");
+                Console.WriteLine("\nEnter the value of Angle B (Oposite of Side B).");
                 angleB = GetAngleInput();
-                Console.WriteLine("\nEnter the value of Angle C (Oposite of Leg C. This is the 90 degree angle for right triangles).");
+                Console.WriteLine("\nEnter the value of Angle C (Oposite of Side C. This is the 90 degree angle for right triangles).");
                 angleC = GetAngleInput();
-
-                //Round angles to the nearest hundreth of a degree
-                //angleA = Math.Round(angleA * 100) / 100;
-                //angleB = Math.Round(angleB * 100) / 100;
-                //angleC = Math.Round(angleC * 100) / 100;
-
+                
 
                 //Calculate the unknown angles and sides
                 bool triangleCalculated = false;
@@ -344,9 +335,9 @@ namespace Triangle_Calculator
         {
             Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n---------------------------------------------------------------------\n");
             Console.WriteLine("Here's what I figured out about your triangle!");
-            Console.WriteLine($"Leg A: {legA}.");
-            Console.WriteLine($"Leg B: {legB}.");
-            Console.WriteLine($"Leg C: {legC}.");
+            Console.WriteLine($"Side A: {legA}.");
+            Console.WriteLine($"Side B: {legB}.");
+            Console.WriteLine($"Side C: {legC}.");
             Console.WriteLine($"Angle A: {RadToDeg(angleA)} Degrees or {angleA} Radians.");
             Console.WriteLine($"Angle B: {RadToDeg(angleB)} Degrees or {angleB} Radians.");
             Console.WriteLine($"Angle C: {RadToDeg(angleC)} Degrees or {angleC} Radians.");
